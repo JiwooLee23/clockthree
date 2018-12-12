@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>clock3</title>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>♥</h1>
+    <div class="wrap">
+      <div id="clock"></div>
+    </div>
+</body>
+<script>
+  window.onload = init;
+
+  function init() {
+    window.setInterval(time, 66);
+  }
+
+  function time() {
+  	var tim = new Date();
+  	var clockDiv = document.getElementById("clock");
+  	clockDiv.innerHTML = tim.toLocaleTimeString()+"."+tim.getMilliseconds();
+  }
+</script>
+</html>

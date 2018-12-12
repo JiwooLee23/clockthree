@@ -1,0 +1,27 @@
+
+html, body {
+  background: #c353d3;
+}
+.wrap {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  height: 80px;
+  margin-top: -40px;
+  width: 1000px;
+  margin-left: -500px;
+}
+#clock {
+  text-align: center;
+  font-size: 80px;
+  color: red;
+  font-family:Impact, Charcoal, sans-serif;
+}
+
+h1{
+  color:red;
+  font-size:100px;
+  font-family: Impact, Charcoal, sans-serif;
+  margin-top: 260px;
+  margin-left: 950px;
+}
